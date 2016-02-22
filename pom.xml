@@ -3,7 +3,7 @@
   <parent>
   	<groupId>org.infodancer</groupId>
   	<artifactId>defaults</artifactId>
-  	<version>0.0.1-SNAPSHOT</version>
+  	<version>0.0.12</version>
   </parent>  
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.infodancer.message</groupId>
@@ -23,7 +23,7 @@
       <plugin>
          <artifactId>jdeb</artifactId>
          <groupId>org.vafer</groupId>
-         <version>1.0</version>
+         <version>1.4</version>
          <executions>
                <execution>
                    <phase>package</phase>
