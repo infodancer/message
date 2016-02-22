@@ -1,0 +1,6 @@
+resolver=localhost
+smarthost=localhost
+sender=test@example.com
+recipient=test@example.com
+subject=Test message!
+body=This message is a test!
