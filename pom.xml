@@ -50,4 +50,8 @@
 
   <dependencies>
   </dependencies>
+  <scm>
+    <connection>scm:git:http://infodancer.org/scm/git/message</connection>
+    <developerConnection>scm:git:http://infodancer.org/scm/git/message</developerConnection>
+  </scm>
 </project>
