@@ -51,8 +51,20 @@
   	</dependency>	
   </dependencies>
   <scm>
-    <connection>scm:git:http://infodancer.org/scm/git/message</connection>
-    <developerConnection>scm:git:http://infodancer.org/scm/git/message</developerConnection>
+    <connection>scm:git:git://infodancer.org/message</connection>
+    <developerConnection>scm:git:git+ssh://infodancer.org/srv/git/message</developerConnection>
     <tag>HEAD</tag>
   </scm>
+  <distributionManagement>
+    <repository>
+      <id>archiva.internal</id>
+      <name>Internal Release Repository</name>
+      <url>http://infodancer.org:8080/repository/internal/</url>
+    </repository>
+    <snapshotRepository>
+      <id>archiva.snapshots</id>
+      <name>Internal Snapshot Repository</name>
+      <url>http://infodancer.org:8080/repository/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
